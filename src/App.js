@@ -1,12 +1,13 @@
 import React from 'react';
 import Form from './components/UI/Form';
-import UserList from './components/users/UserList';
+import AddUser from './components/users/AddUser';
 
 export default function App() {
   return (
     <>
-      <Form />
-      <UserList />
+      {/* <Form />
+      <UserList /> */}
+      <AddUser />
     </>
   );
 }
